@@ -2,11 +2,9 @@
 
 ![banner goes here](https://via.placeholder.com/1080x480)
 
-<!-- description goes here -->
+**Tutortoise** is a platform that connects leaners with skilled tutors, making personalized education accessible and flexible. Learners can find tutors based on subjects, budgets, schedules, and preferred learning methods (online or on-site). Designed with a user-centered approach, Tutortoise aims to overcome barriers in education, empower learners, and enhance the quality of tutoring through innovative technology.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et tincidunt velit. Pellentesque laoreet ultrices laoreet. Donec vehicula diam a enim egestas scelerisque. Aliquam quis nibh est. Suspendisse facilisis lacus nisi, et posuere arcu consectetur pretium. Nulla orci nulla, laoreet nec purus sed, blandit condimentum erat. Integer volutpat tincidunt cursus. Etiam nec ante velit. In non libero at lorem sollicitudin venenatis sit amet et augue. Nulla tempus porta augue eu eleifend.
-
-## 🧠 Meet the brains behind Tutortoise
+## ✨ Meet The Awesome Team Behind Tutortoise
 
 <table>
   <thead>
@@ -76,14 +74,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et tincidunt ve
 
 Below are the technologies and tools that we use to build Tutortoise.
 
-### Machine Learning
+### 🤖 Machine Learning
 
-[![tech-stack](https://skillicons.dev/icons?i=tensorflow,py,fastapi,pycharm)](https://skillicons.dev)
+[![tech-stack](https://skillicons.dev/icons?i=tensorflow,py,fastapi)](https://skillicons.dev)
 
-### Cloud Computing
+### ☁️ Cloud Computing
 
 [![tech-stack](https://skillicons.dev/icons?i=arch,gcp,ts,bun,express,postgres,firebase,docker,terraform)](https://skillicons.dev)
 
-### Mobile Development
+### 📱 Mobile Development
 
 [![tech-stack](https://skillicons.dev/icons?i=androidstudio,kotlin,figma)](https://skillicons.dev)
