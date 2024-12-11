@@ -6,7 +6,7 @@
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et tincidunt velit. Pellentesque laoreet ultrices laoreet. Donec vehicula diam a enim egestas scelerisque. Aliquam quis nibh est. Suspendisse facilisis lacus nisi, et posuere arcu consectetur pretium. Nulla orci nulla, laoreet nec purus sed, blandit condimentum erat. Integer volutpat tincidunt cursus. Etiam nec ante velit. In non libero at lorem sollicitudin venenatis sit amet et augue. Nulla tempus porta augue eu eleifend.
 
-## 👥 Team Members
+## 🧠 Meet the brains behind Tutortoise
 
 <table>
   <thead>
@@ -74,10 +74,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et tincidunt ve
 
 ## 🛠️ Tech Stack
 
-<!-- tech stack goes here -->
+Below are the technologies and tools that we use to build Tutortoise.
 
 ### Machine Learning
 
+[![tech-stack](https://skillicons.dev/icons?i=tensorflow,py,fastapi,pycharm)](https://skillicons.dev)
+
 ### Cloud Computing
 
+[![tech-stack](https://skillicons.dev/icons?i=arch,gcp,ts,bun,express,postgres,firebase,docker,terraform)](https://skillicons.dev)
+
 ### Mobile Development
+
+[![tech-stack](https://skillicons.dev/icons?i=androidstudio,kotlin,figma)](https://skillicons.dev)
