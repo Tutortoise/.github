@@ -77,10 +77,13 @@ Below are the technologies and tools that we use to build Tutortoise.
 ### 🤖 Machine Learning
 
 [![tech-stack](https://skillicons.dev/icons?i=tensorflow,py,fastapi)](https://skillicons.dev)
+<img src="https://avatars.githubusercontent.com/u/31675368?s=400&v=4" width="48" alt="ONNX">
+<img src="https://skillicons.dev/icons?i=go" width="48" alt="Go">
+<img src="https://avatars.githubusercontent.com/u/43754238?s=400&v=4" width="48" alt="VowpalWabbit">
 
 ### ☁️ Cloud Computing
 
-[![tech-stack](https://skillicons.dev/icons?i=arch,gcp,ts,bun,express,postgres,firebase,docker,terraform)](https://skillicons.dev)
+[![tech-stack](https://skillicons.dev/icons?i=arch,gcp,ts,bun,express,postgres,firebase,docker,terraform,githubactions)](https://skillicons.dev)
 
 ### 📱 Mobile Development
 
