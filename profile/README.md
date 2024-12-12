@@ -1,6 +1,6 @@
 # 🐢 Tutortoise: Your Perfect Tutor is Around You
 
-![banner goes here](https://via.placeholder.com/1080x480)
+![Banner](banner.png)
 
 **Tutortoise** is a platform that connects leaners with skilled tutors, making personalized education accessible and flexible. Learners can find tutors based on subjects, budgets, schedules, and preferred learning methods (online or on-site). Designed with a user-centered approach, Tutortoise aims to overcome barriers in education, empower learners, and enhance the quality of tutoring through innovative technology.
 
