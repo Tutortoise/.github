@@ -56,80 +56,46 @@
 
 ![Infrastructure Diagram](./infra.jpg)
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Components & Tools
 
 Below are the technologies and tools that we use to build Tutortoise.
 
-### 🤖 Machine Learning Systems
+### 🤖 Machine Learning System
 
-#### 🎯 Recommender System
-![Recommender System Architecture](./ml-assets/recsys-service_architecture.jpg)
+Our ML System consists of three main services:
 
-A real-time recommendation engine that provides personalized tutor matches using:
-- Hybrid filtering approach (collaborative + content-based)
-- Location-based matching
-- Learning style compatibility
-- Dynamic price and rating considerations
+#### 1. Recommender System
+<details>
+  <summary>View Architecture</summary>
+  <img src="./ml-assets/recsys-service_architecture.jpg" alt="Recommender System Architecture">
+</details>
 
-**Technologies:**
-<p align="left">
-  <img src="https://avatars.githubusercontent.com/u/43754238?s=400&v=4" width="24" alt="VowpalWabbit"> VowpalWabbit &nbsp;&nbsp;&nbsp;
-  <img src="https://skillicons.dev/icons?i=fastapi" width="24" alt="FastAPI"> FastAPI
-</p>
+- **Tech**: VowpalWabbit, FastAPI
+- **Features**: Real-time recommendation (batch & online), Hybrid System (Content-based & Collaborative Filtering), Weighted Features
+- [📦 View Repository](https://github.com/tutortoise/system-recommender-service)
 
-<br>
+#### 2. Profile Picture Moderation
+<details>
+  <summary>View Architecture</summary>
+  <img src="./ml-assets/pfp-moderation-service_architecture.jpg" alt="Profile Picture Moderation Architecture">
+</details>
 
-📂 [View Code](https://github.com/tutortoise/system-recommender-service)
+- **Tech**: Go, ONNX Runtime, YOLOv11n
+- **Features**: Fast Inference, Lightweight, High Precision
+- [📦 View Repository](https://github.com/tutortoise/face-validation-service)
 
----
+#### 3. Content Moderation
+<details>
+  <summary>View Architecture</summary>
+  <img src="./ml-assets/content-moderation_architecture.jpg" alt="Content Moderation Architecture">
+</details>
 
-#### 🖼️ Profile Picture Moderation
-![Profile Picture Moderation Architecture](./ml-assets/pfp-moderation-service_architecture.jpg)
+- **Tech**: TensorFlow, FastAPI
+- **Features**: Bilingual support (EN/ID), Contextual Abusive Detection
+- [📦 View Repository](https://github.com/tutortoise/bilingual-abusive-detection-service)
 
-High-performance profile picture validation service that ensures professional standards by:
-- Validating human face presence in profile photos
-- Distinguishing between real and animated/illustrated faces
-- Real-time feedback for photo requirements
-- Support for multiple image formats and upload methods
-
-**Technologies:**
-<p align="left">
-<img src="https://skillicons.dev/icons?i=go" width="24" alt="Go"> Go &nbsp;&nbsp;&nbsp;
-<img src="https://avatars.githubusercontent.com/u/31675368?s=400&v=4" width="24" alt="ONNX"> ONNX Runtime &nbsp;&nbsp;&nbsp;
-🧠︎ YOLOv11n
-</p>
-
-<br>
-
-📂 [View Code](https://github.com/tutortoise/face-validation-service)
-
----
-
-#### 📝 Content Moderation
-![Content Moderation Architecture](./ml-assets/content-moderation_architecture.jpg)
-
-Enterprise-grade content moderation engine with:
-- Bilingual support (EN/ID)
-- Character substitution detection
-- Context-aware classification
-- High-throughput batch processing
-
-**Technologies:**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=tensorflow" width="24" alt="TensorFlow"> TensorFlow &nbsp;&nbsp;&nbsp;
-  <img src="https://skillicons.dev/icons?i=fastapi" width="24" alt="FastAPI"> FastAPI
-</p>
-
-<br>
-
-📂 [View Code](https://github.com/tutortoise/bilingual-abusive-detection-service)
-
----
-
-### ☁️ Cloud Computing
-
-[![tech-stack](https://skillicons.dev/icons?i=gcp,ts,bun,express,postgres,firebase,docker,terraform,githubactions)](https://skillicons.dev)
+### ☁️ Backend & Cloud Infrastructure
+[![Backend Stack](https://skillicons.dev/icons?i=gcp,ts,bun,express,postgres,firebase,docker,terraform,githubactions)](https://skillicons.dev)
 
 ### 📱 Mobile Development
-
-[![tech-stack](https://skillicons.dev/icons?i=androidstudio,kotlin,figma)](https://skillicons.dev)
+[![Mobile Stack](https://skillicons.dev/icons?i=androidstudio,kotlin,figma)](https://skillicons.dev)
