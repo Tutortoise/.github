@@ -60,64 +60,71 @@
 
 Below are the technologies and tools that we use to build Tutortoise.
 
-### 🤖 Machine Learning
+### 🤖 Machine Learning Systems
 
-<table>
-  <tr>
-    <th width="15%">System</th>
-    <th width="45%">Description</th>
-    <th width="40%">Tech Stack</th>
-  </tr>
-  <tr>
-    <td>🎯<br><b>Recommender<br>System</b></td>
-    <td>Matches students with suitable tutors based on teaching styles, subject expertise, learning preferences, schedules, and budget</td>
-    <td>
-      <div style="margin: 8px 0;">
-        <img src="https://avatars.githubusercontent.com/u/43754238?s=400&v=4" width="24" alt="VowpalWabbit">
-        VowpalWabbit for contextual bandits
-      </div>
-      <div style="margin: 8px 0;">
-        <img src="https://skillicons.dev/icons?i=fastapi" width="24" alt="FastAPI">
-        FastAPI for API endpoints
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td>🖼️<br><b>Profile Picture<br>Moderation</b></td>
-    <td>Ensures professional standards in tutor profile pictures through face detection, validation, and real-time feedback</td>
-    <td>
-      <div style="margin: 8px 0;">
-        <img src="https://skillicons.dev/icons?i=go" width="24" alt="Go">
-        Go for high-performance serving
-      </div>
-      <div style="margin: 8px 0;">
-        <img src="https://avatars.githubusercontent.com/u/31675368?s=400&v=4" width="24" alt="ONNX">
-        ONNX for efficient model serving
-      </div>
-      <div style="margin: 8px 0;">
-        YOLOv11 for object detection
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td>📝<br><b>Text Content<br>Moderation</b></td>
-    <td>Maintains platform professionalism by detecting inappropriate content in English/Indonesian with context-aware analysis</td>
-    <td>
-      <div style="margin: 8px 0;">
-        <img src="https://skillicons.dev/icons?i=tensorflow" width="24" alt="TensorFlow">
-        TensorFlow for NLP processing
-      </div>
-      <div style="margin: 8px 0;">
-        <img src="https://skillicons.dev/icons?i=py" width="24" alt="Python">
-        Python for model deployment
-      </div>
-      <div style="margin: 8px 0;">
-        <img src="https://skillicons.dev/icons?i=fastapi" width="24" alt="FastAPI">
-        FastAPI for API endpoints
-      </div>
-    </td>
-  </tr>
-</table>
+#### 🎯 Recommender System
+![Recommender System Architecture](./ml-assets/recsys-service_architecture.jpg)
+
+A real-time recommendation engine that provides personalized tutor matches using:
+- Hybrid filtering approach (collaborative + content-based)
+- Location-based matching
+- Learning style compatibility
+- Dynamic price and rating considerations
+
+**Technologies:**
+<p align="left">
+  <img src="https://avatars.githubusercontent.com/u/43754238?s=400&v=4" width="24" alt="VowpalWabbit"> VowpalWabbit &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=fastapi" width="24" alt="FastAPI"> FastAPI
+</p>
+
+<br>
+
+📂 [View Code](https://github.com/tutortoise/system-recommender-service)
+
+---
+
+#### 🖼️ Profile Picture Moderation
+![Profile Picture Moderation Architecture](./ml-assets/pfp-moderation-service_architecture.jpg)
+
+High-performance profile picture validation service that ensures professional standards by:
+- Validating human face presence in profile photos
+- Distinguishing between real and animated/illustrated faces
+- Real-time feedback for photo requirements
+- Support for multiple image formats and upload methods
+
+**Technologies:**
+<p align="left">
+<img src="https://skillicons.dev/icons?i=go" width="24" alt="Go"> Go &nbsp;&nbsp;&nbsp;
+<img src="https://avatars.githubusercontent.com/u/31675368?s=400&v=4" width="24" alt="ONNX"> ONNX Runtime &nbsp;&nbsp;&nbsp;
+🧠︎ YOLOv11n
+</p>
+
+<br>
+
+📂 [View Code](https://github.com/tutortoise/face-validation-service)
+
+---
+
+#### 📝 Content Moderation
+![Content Moderation Architecture](./ml-assets/content-moderation_architecture.jpg)
+
+Enterprise-grade content moderation engine with:
+- Bilingual support (EN/ID)
+- Character substitution detection
+- Context-aware classification
+- High-throughput batch processing
+
+**Technologies:**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=tensorflow" width="24" alt="TensorFlow"> TensorFlow &nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=fastapi" width="24" alt="FastAPI"> FastAPI
+</p>
+
+<br>
+
+📂 [View Code](https://github.com/tutortoise/bilingual-abusive-detection-service)
+
+---
 
 ### ☁️ Cloud Computing
 
