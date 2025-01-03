@@ -52,16 +52,72 @@
   </tbody>
 </table>
 
+## 🏗️ Infrastructure
+
+![Infrastructure Diagram](./infra.jpg)
+
 ## 🛠️ Tech Stack
 
 Below are the technologies and tools that we use to build Tutortoise.
 
 ### 🤖 Machine Learning
 
-[![tech-stack](https://skillicons.dev/icons?i=tensorflow,py,fastapi)](https://skillicons.dev)
-<img src="https://avatars.githubusercontent.com/u/31675368?s=400&v=4" width="48" alt="ONNX">
-<img src="https://skillicons.dev/icons?i=go" width="48" alt="Go">
-<img src="https://avatars.githubusercontent.com/u/43754238?s=400&v=4" width="48" alt="VowpalWabbit">
+<table>
+  <tr>
+    <th width="15%">System</th>
+    <th width="45%">Description</th>
+    <th width="40%">Tech Stack</th>
+  </tr>
+  <tr>
+    <td>🎯<br><b>Recommender<br>System</b></td>
+    <td>Matches students with suitable tutors based on teaching styles, subject expertise, learning preferences, schedules, and budget</td>
+    <td>
+      <div style="margin: 8px 0;">
+        <img src="https://avatars.githubusercontent.com/u/43754238?s=400&v=4" width="24" alt="VowpalWabbit">
+        VowpalWabbit for contextual bandits
+      </div>
+      <div style="margin: 8px 0;">
+        <img src="https://skillicons.dev/icons?i=fastapi" width="24" alt="FastAPI">
+        FastAPI for API endpoints
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>🖼️<br><b>Profile Picture<br>Moderation</b></td>
+    <td>Ensures professional standards in tutor profile pictures through face detection, validation, and real-time feedback</td>
+    <td>
+      <div style="margin: 8px 0;">
+        <img src="https://skillicons.dev/icons?i=go" width="24" alt="Go">
+        Go for high-performance serving
+      </div>
+      <div style="margin: 8px 0;">
+        <img src="https://avatars.githubusercontent.com/u/31675368?s=400&v=4" width="24" alt="ONNX">
+        ONNX for efficient model serving
+      </div>
+      <div style="margin: 8px 0;">
+        YOLOv11 for object detection
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>📝<br><b>Text Content<br>Moderation</b></td>
+    <td>Maintains platform professionalism by detecting inappropriate content in English/Indonesian with context-aware analysis</td>
+    <td>
+      <div style="margin: 8px 0;">
+        <img src="https://skillicons.dev/icons?i=tensorflow" width="24" alt="TensorFlow">
+        TensorFlow for NLP processing
+      </div>
+      <div style="margin: 8px 0;">
+        <img src="https://skillicons.dev/icons?i=py" width="24" alt="Python">
+        Python for model deployment
+      </div>
+      <div style="margin: 8px 0;">
+        <img src="https://skillicons.dev/icons?i=fastapi" width="24" alt="FastAPI">
+        FastAPI for API endpoints
+      </div>
+    </td>
+  </tr>
+</table>
 
 ### ☁️ Cloud Computing
 
